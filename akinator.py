@@ -941,6 +941,19 @@ class ElementAkinator:
         charge_question = "What is the charge of the element?"
         charge_answer = input(charge_question)
         current_elements = [element for element in current_elements if self.elements[element]["charge"] == charge_answer]
+        
+        # Question 8:Solid, Liquid, Gas
+        state_question = What state is the state of the element?
+        state_answer = input(state_question)
+        current_element = [element for element in current_element if self.element[element]["state"] == state_answer]
+
+        # Question 9: Radioactivity
+        radioactive_question = "Is your element radioactive?
+        state_answer = input(radioactive_question)
+        current_element = [element for element in current_element if self.element[element]["radioactive"] == radioactive_answer
+
+        # Question 10: What is the density?
+        debsity
 
         # Continue with more questions...
 
